@@ -1,18 +1,22 @@
-#include <main.h>
+#include "main.h"
+
 /**
  * main - Entry point
- * Description: 'prints -putchar to stdout'
- * Return: always 0
+ *
+ * Return: Always 0 (SUCCESS)
  */
+
 int main(void)
-{
-	write("-");
-	write("p");
-	write("u");
-	write("t");
-	write("c");
-	write("h");
-	write("a");
-	write("r");
-	return (0);
-}
+        
+{       
+        -putchar('_');
+        -putchar('p');
+        -putchar('u');
+        -putchar('t');
+        -putchar('c');
+        -putchar('h');
+        -putchar('a');
+        -putchar('r');
+        -putchar('\n');
+        return (0);
+}       
