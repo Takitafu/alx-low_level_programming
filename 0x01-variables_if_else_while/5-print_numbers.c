@@ -2,21 +2,17 @@
 
 
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - program that prints single numbers starting from 0
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char letter;
+	int num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
 	putchar('\n');
 
